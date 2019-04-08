@@ -1,0 +1,23 @@
+.menu_head{
+	width: 290px;
+	height: 47px;
+	line-height: 47px;
+	padding-left: 25px;
+	font-size: 16px;
+	color: #333333;
+	cursor: pointer;
+	position: relative;
+	margin: 0px;
+	background-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e1e1e1;
+}
+.menu_list .current{
+	background-color: #fff;
+}
+.menu_body{width:316px;height:auto;overflow:hidden;line-height:38px;}
+.menu_body ul {background:#bfb2ac;width:316px;overflow:hidden;}
+.menu_body ul li{width:60px;overflow:hidden;line-height:38px; float:left; padding-left:25px;}
+.menu_body ul li a{display:block;color:#555555;text-decoration:none;}
+.menu_body a:hover{text-decoration:none;}

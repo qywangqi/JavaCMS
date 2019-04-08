@@ -1,4 +1,6 @@
-com\example\demo\DemoApplication.class
-com\example\demo\Vo\Result.class
 com\example\demo\Controller\TestController.class
+com\example\DemoApplication.class
+com\example\common\annotation\Log.class
+com\example\offcialWebSite\controller\IndexController.class
+com\example\demo\Vo\Result.class
 com\example\demo\Swagger2.class

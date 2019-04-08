@@ -1,0 +1,141 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!-- 头部  开始-->
+<div class="top" > 
+    <div class="top_left" > 
+    <img src="images/logo.jpg" width="556" height="86" /> </div>
+    <div class="sousuo01" > 
+    <img src="images/sousuo01.jpg" width="10" height="38" /> </div>
+    <div class="sousuo02" > 
+          <input name="搜索关键词" type="text"   style="width:400px; line-height:30px; padding-top:5px; background:none;"/>
+    </div>
+    <div class="sousuo03" > 
+    <img src="images/sousuo03.jpg" width="77" height="38" /> </div>
+</div>
+<!-- banner  开始-->
+<div class="banner " > 
+    <div class="banner01" >
+       <ul>
+             <li><a href="#">网站首页</a></li>
+             <li><a href="#">责任医院 </a></li>
+             <li><a href="#">责任医疗</a></li>
+             <li><a href="#">责任快递</a></li>
+             <li><a href="#">责任之家</a></li>
+             <li><a href="#">健康管理 </a></li>
+             <li><a href="#">网上医疗</a></li>
+             <li><a href="#">服务中心 </a></li>
+             <li><a href="#">党群工作 </a></li>
+             <li style="background:none;"><a href="#">在线挂号</a></li>
+         </ul> 
+     </div>    
+</div>
+<!-- banner  结束-->
+<div class="HeadPic" > 
+<img src="images/ksjs/tu.jpg" width="1920" height="303" /> </div>
+<!--  头部  结束-->
+<!-- 位置  开始-->
+<div class="yygh_bg " > 
+      <div class="yygh " > 
+            <ul>
+             <li><a href="#">预约挂号</a></li>
+             <li><a href="#">检验化验单查询 </a></li>
+             <li><a href="#">西药价格查询</a></li>
+             <li><a href="#">中成药价格查询</a></li>
+             <li><a href="#">医疗服务价格查询</a></li>
+             <li><a href="#">执业医师信息</a></li>
+             <li><a href="#">执业护士信息</a></li>
+         </ul> 
+      </div>
+</div>
+<!-- 位置  结束-->
+<!-- 科室介绍  开始-->
+<div class="top margin-top4" > 
+    <div class="module_wrap">
+      <!-- 本人信息填写 begin-->
+      <div class="primary_title"><h2>药品价格查询</h2><span></span></div>
+      <div class="Reg_infor">
+      <form action="patient!toPage.action" method="post" onsubmit="return check();">
+          <input type="hidden" id="checkcode" type="text" value=""  >
+     	  <div class="input_list">
+			  <ul>
+			      <li><b><em>*</em>查询类型：</b>
+                  
+				  <select  id="checktype" name="checktype" class="InputTxt">
+				  <option value="">请选择</option>
+				  <option value="5">西药价格查询</option>
+				  <option value="6">中成药价格查询</option>
+				  </select>
+				  </li>
+
+				  <li><b><em>*</em>药品名称：</b><input id="patientidcard" type="text" name="patientidcard" class="InputTxt" onblur="checkidcard()" /><div class="Prompt"> 
+                       <p class="warn" id="idcard_b"> 药品名称或部分关键词</p></div></li>
+	              <li><input type="submit" name="" value="查询" class="InputBtn_Green"  ></li>
+			  </ul>
+		  </div>
+		</form>
+	  </div>
+	  <!-- 本人信息填写 end-->	
+	</div>
+
+</div>
+<!-- 科室介绍  结束-->
+
+<!-- 底部  开始-->
+<div class="foot01" > 
+    <div class="top" > 
+         <div class="down01 font01" > 
+          友情链接
+         </div>
+         <div class="down02" > 
+              <div align="center"><select style="background-color: #ffffff; color: #555555; width:355px; margin-top:10px;height:30px; padding-left:25px;"  onchange="javascript:window.open(this.options[this.selectedIndex].value)" name="select3">
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 省级医科大学网站  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 省级医科大学网站  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 省级医科大学网站  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 省级医科大学网站  &nbsp;&nbsp; -----------------</option>
+                    </select>
+                </div>
+         </div>
+         <div class="down02" > 
+              <div align="center"><select style="background-color: #ffffff; color: #555555; width:355px; margin-top:10px;height:30px; padding-left:25px;"  onchange="javascript:window.open(this.options[this.selectedIndex].value)" name="select3">
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 其他医院网站链接  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 其他医院网站链接 &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 其他医院网站链接  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 其他医院网站链接 &nbsp;&nbsp; -----------------</option>
+                    </select>
+                </div>
+         </div>
+         <div class="down02" > 
+              <div align="center"><select style="background-color: #ffffff; color: #555555; width:355px; margin-top:10px;height:30px; padding-left:25px;"  onchange="javascript:window.open(this.options[this.selectedIndex].value)" name="select3">
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 常用网站链接  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 常用网站链接  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 常用网站链接  &nbsp;&nbsp; -----------------</option>
+                    <option selected="selected" >    ----------------- &nbsp;&nbsp; 常用网站链接  &nbsp;&nbsp; -----------------</option>
+                    </select>
+                </div>
+         </div>
+    </div>
+</div>
+<div class="foot02" > 
+    <div class="down" > 
+        <div class="down03"  align="center"> 
+        <img src="images/ewm.jpg" width="123" height="121" /> </div>
+        <div class="down04"  align="center"> 
+        <img src="images/down-xian.jpg" width="3" height="173" /> </div>
+        <div class="down05" > 
+           网站首页 | 关于我们 | 来院线路 | 网站帮助 | 版权申明 | 联系方式 <br/>
+           版权所有：许昌市人民医院<br/>
+地址：河南省许昌市建安大道1366号（原健康路西段）<br/>
+本网电话：0374-2558866    急救电话：0374-4515120 
+        </div>
+  </div>
+</div>
+<!--  底部  结束-->
+
+</body>
+</html>
